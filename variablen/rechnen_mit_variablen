@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        let zahl1 = 5;
+        let zahl2 = 10;
+        let summe = zahl1 + zahl2;
+        console.log(summe);
+        let dif = zahl1-zahl2;
+        console.log (dif);
+        let produkt = zahl1*zahl2;
+        console.log (produkt);
+        let quotient = zahl1/zahl2
+        console.log (quotient);
+        // pi ist eine Konstante, kann nicht mehr verändert werden
+        const pi = 3.14;
+        console.log(pi);
+        
+    </script>
+</body>
+
+</html>

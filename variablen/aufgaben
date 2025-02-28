@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        console.log ("Aufgabe 1");
+        let firstname = "Noah";
+        console.log(firstname);
+        let age = 33;
+        console.log(age);
+        const birthyear = 1991;
+        console.log(birthyear);
+        firstname = "Max";
+        console.log(firstname);
+       
+        console.log ("Aufgabe 2");
+        let text1 = "Hallo";
+        let text2 = "Welt";
+        let leer = " "
+        let greetings = text1 + leer + text2;
+        console.log(greetings);
+
+        text1 = "Guten Tag";
+        text2 = "Zusammen";
+        greeting = text1 + leer + text2;
+        console.log(greeting);
+
+        console.log ("Aufgabe 3");
+        let laenge = 5;
+        let breite = 6;
+        let flaeche = laenge * breite;
+        console.log("Die Fläche des Rechtecks beträgt: " + flaeche);
+
+        console.log ("Aufgabe 4");
+        let radius = 4;
+        const pi = 3.14159;
+        let flächenkreis = 2 * pi * radius;
+        console.log("Die Fläche des Kreises beträgt: " + flächenkreis);
+
+        console.log ("Aufgabe 5");
+        let name = "Max";
+        let alter = 25;
+        console.log("Hallo " + name + "du bist " + alter + " Jahre alt");
+        
+
+    </script>
+</body>
+
+</html>
